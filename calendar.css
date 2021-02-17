@@ -66,12 +66,12 @@ td {
   font-weight: var(--weight-bold);
 }
 
-td:hover {
-  transform: scale(1.2);
-  background-color: var(--color-light-blue);
-}
-
+td:hover,
 .today {
   background-color: var(--color-light-blue);
   font-weight: var(--weight-bold);
+}
+
+td:hover {
+  transform: scale(1.2);
 }
