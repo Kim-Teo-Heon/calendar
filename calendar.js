@@ -1,5 +1,5 @@
-const date = document.querySelector('#date');
-const calendar = document.querySelector('#calender');
+const date = document.querySelector('#date-input');
+const calendar = document.querySelector('.calendar__date');
 
 const now = new Date();
 const year_now = now.getFullYear();
@@ -90,7 +90,5 @@ function init() {
     date.addEventListener('change', gen_calander);
 
 }
-
-
 
 init();

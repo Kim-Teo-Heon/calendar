@@ -1,0 +1,77 @@
+/* Global */
+:root {
+  /* Color */
+  --color-dark-blue: #00004f;
+  --color-light-blue: #514aac;
+  --color-primary-blue: #18227c;
+  --color-light-white: #eeeeee;
+
+  /* Size */
+  --size-border-radius: 10px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-regular: 400;
+}
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-primary-blue);
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+td {
+  width: 60px;
+  height: 40px;
+  border: var(--color-light-white) 2px solid;
+}
+
+input {
+  border: none;
+}
+
+/* Input */
+#date-input {
+  font-weight: bold;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  margin: 20px;
+  border: var(--color-light-white) 2px solid;
+  border-radius: var(--size-border-radius);
+  background-color: var(--color-primary-blue);
+  color: var(--color-light-white);
+}
+
+/* Calendar */
+td {
+  color: var(--color-light-white);
+  text-align: center;
+  border-radius: var(--size-border-radius);
+  background-color: var(--color-dark-blue);
+  transition: all 0.3s ease;
+}
+
+.day-of-week > td {
+  background-color: var(--color-light-blue);
+  font-weight: var(--weight-bold);
+}
+
+td:hover {
+  transform: scale(1.2);
+  background-color: var(--color-light-blue);
+}
+
+.today {
+  background-color: var(--color-light-blue);
+  font-weight: var(--weight-bold);
+}
