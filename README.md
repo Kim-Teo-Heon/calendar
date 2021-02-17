@@ -13,3 +13,8 @@ Vanilla JS Practice
 #### hover
 
 ![hover](https://user-images.githubusercontent.com/75817235/108174483-d75e6500-7142-11eb-8e16-dad6b37c471e.PNG)
+
+#### month, year change
+
+![change](https://user-images.githubusercontent.com/75817235/108174476-d594a180-7142-11eb-978c-491aefe3133d.PNG)
+![change](https://user-images.githubusercontent.com/75817235/108174484-d75e6500-7142-11eb-8d5a-e48f9c9d4840.PNG)
